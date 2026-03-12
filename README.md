@@ -1,4 +1,4 @@
-﻿# Compiler--Lexical-Analyzer-Scanner--java
+﻿# Compiler-phases-java
 
 This is a Lexical Analyzer (Scanner) — the first phase of a compiler.
 It reads raw Java source code character by character and breaks it down into meaningful units called tokens. Think of it as the compiler's "reading comprehension" step before any actual understanding of the code can happen.
@@ -9,3 +9,4 @@ It uses a finite state machine (FSM) — a classic compiler theory concept. It s
 Output:
 It writes a formatted table mapping each lexeme (the raw text) to its token type — for example while → WHILE or 123 → INT_LITERAL.
 It's a solid foundational compiler project — lexical analysis is typically the first thing covered in compiler design courses, and implementing it with a pushback reader and manual state machine shows a good grasp of the underlying theory.
+
